@@ -1,0 +1,85 @@
+/* Variables CSS personalizadas para colores */
+:root {
+    --primary-green: #2c7a2c; /* Verde principal del sitio - usado para títulos y iconos */
+    --secondary-green: #4CAF50;
+}
+
+/* Estilos generales del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Tipografía */
+    background-color: #f4f4f4; /* Fondo gris claro*/
+}
+
+/* Estilo para títulos de sección */
+.section-title {
+    color: var(--primary-green);   /* Usa la variable de color verde definida en :root */
+    margin-bottom: 30px;           /* Espacio adicional debajo del título */
+    font-weight: bold;             /* Texto en negrita */
+}
+
+/* Estilos personalizados para tarjetas */
+.card-custom {
+    transition: all 0.3s ease;     /* Animación suave para transiciones */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);  /* Sombra */
+    border: none;                  /* Sin borde predeterminado */
+    margin-bottom: 20px;           /* Espacio entre tarjetas */
+}
+
+/* Efecto hover para tarjetas */
+.card-custom:hover {
+    transform: translateY(-10px);  /* Levanta la tarjeta 10px hacia arriba */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);  /* Sombra más pronunciada al hacer hover */
+}
+
+/* Diseño interno del cuerpo de la tarjeta */
+.card-custom .card-body {
+    display: flex;                 /* Usar flexbox */
+    flex-direction: column;        /* Apilar elementos verticalmente */
+    justify-content: space-between;/* Distribuir espacio uniformemente */
+    height: 100%;                  /* Ocupar altura completa */
+}
+
+/* Estilo para iconos en tarjetas */
+.card-custom .card-icon {
+    font-size: 3rem;               /* Tamaño grande de ícono */
+    color: var(--primary-green);   /* Color verde principal */
+    margin-bottom: 15px;           /* Espacio debajo del ícono */
+}
+
+/* Fondo verde claro para secciones */
+.bg-light-green {
+    background-color: #e8f5e9;     /* Tono muy suave de verde */
+}
+
+/* Contenedor de imágenes */
+.img-container {
+    height: 250px;                 /* Altura fija */
+    overflow: hidden;              /* Ocultar contenido que desborde */
+}
+
+/* Estilo para imágenes dentro de contenedores */
+.img-container img {
+    width: 100%;                   /* Ancho completo */
+    height: 100%;                  /* Altura completa */
+    object-fit: cover;             /* Cubrir el contenedor manteniendo proporción */
+}
+
+/* Efecto hover para elementos de navegación */
+.custom-hover:hover {
+    color: #198754;
+    /* Color verde al pasar el cursor */
+    text-decoration: none;
+    /* Sin subrayado */
+}
+
+/* Responsive: Añadir margen entre columnas en dispositivos pequeños */
+@media (max-width: 768px) {
+    .row > [class*='col-'] {
+        margin-bottom: 20px;       /* Espacio entre columnas en móviles */
+    }
+}
+.card-text {
+    text-align: justify; /* Justificar texto */
+    hyphens: auto; /* Añade guiones para mejor justificación */
+    word-break: break-word; /* Evita que palabras muy largas desborden */
+}

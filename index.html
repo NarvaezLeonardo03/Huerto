@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoHuerto -  Agricultura Sostenible</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!--Hoja de estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="Styles/style.css" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <!--Titulo-->
+            <h2 class="navbar-brand custom-hover">EcoHuerto</h2>
+
+            <!--Boton de opciones en dispositivos móviles-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Parte del NavBar-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link custom-hover" href="#inicio"><b>Inicio</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-hover" href="#beneficios"><b>Beneficios</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-hover" href="#guia"><b>Guía de Cultivo</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-hover" href="#plantas"><b>Plantas</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-hover" href="#tecnicas"><b>Técnicas</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio Sección -->
+    <section id="inicio" class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="section-title">Ecohuerto: Cultivando un futuro sostenible</h1>
+                <p class="lead">Transforma espacios pequeños en jardines productivos. Aprende a cultivar tus propios alimentos, contribuye al medio ambiente y mejora tu calidad de vida.</p>
+                <a href="#guia" class="btn btn-success">Comenzar a Cultivar</a>
+            </div>
+            
+            <div class="col-md-6 img-container">
+                <br /> <!--HAce un salto de línea para que la imagen no esté pegada al botón-->
+                <img src="Img/Imagen1.webp" width="100%" height="100%" alt="Huerto Urbano" class="img-fluid rounded">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Beneficios Sección -->
+    <section id="beneficios" class="container my-5 bg-light-green py-5">
+        <h2 class="section-title text-center">Beneficios de los Huertos Urbanos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-heart card-icon"></i>
+                        <h5 class="card-title">Salud Nutricional</h5>
+                        <p class="card-text">Alimentos frescos, orgánicos y libres de pesticidas. Mejora tu dieta con productos de kilómetro cero.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-leaf card-icon"></i>
+                        <h5 class="card-title">Impacto Ambiental</h5>
+                        <p class="card-text">Reduce tu huella de carbono, promueve la biodiversidad urbana y contribuye a un ecosistema más saludable.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-brain card-icon"></i>
+                        <h5 class="card-title">Desarrollo Personal</h5>
+                        <p class="card-text">Aprende nuevas habilidades, reduce el estrés y conecta con la naturaleza en tu propio espacio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guía de Cultivo Sección -->
+    <section id="guia" class="container my-5">
+        <h2 class="section-title text-center">Guía Paso a Paso para tu Huerto</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-search card-icon"></i>
+                        <h5 class="card-title">Selección de Espacio</h5>
+                        <p class="card-text">Identifica áreas con luz solar adecuada. Balcones, terrazas, jardines pequeños son perfectos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-hammer card-icon"></i>
+                        <h5 class="card-title">Preparación del Suelo</h5>
+                        <p class="card-text">Usa compost orgánico, mejora la estructura del suelo y asegura drenaje adecuado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-seedling card-icon"></i>
+                        <h5 class="card-title">Selección de Plantas</h5>
+                        <p class="card-text">Elige especies adaptadas a tu clima y espacio. Ideal comenzar con hierbas y verduras fáciles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-tint card-icon"></i>
+                        <h5 class="card-title">Mantenimiento</h5>
+                        <p class="card-text">Riega adecuadamente, controla plagas de forma natural y mantén un calendario de cuidados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plantas Sección -->
+    <section id="plantas" class="container my-5 bg-light-green py-5">
+        <h2 class="section-title text-center">Plantas Ideales para Huertos Urbanos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="img-container">
+                        <img src="Img/tomate.webp" alt="Tomate" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h3>Tomates</h3>
+                        <p class="card-text text-justify">Los tomates son una excelente opción para huertos urbanos. Pueden cultivarse en macetas grandes o jardineras. Requieren al menos 6-8 horas de luz solar directa y un soporte para crecer. Hay variedades pequeñas como los cherry, perfectos para espacios reducidos. Aportan vitaminas A y C, y son fundamentales en la cocina mediterránea.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="img-container">
+                        <img src="Img/hierbas.webp" alt="Hierbas" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h3>Hierbas Aromáticas</h3>
+                        <p class="card-text text-justify">Las hierbas aromáticas son ideales para huertos pequeños. Incluyen albahaca (excelente para pesto), cilantro (para platos mexicanos), perejil (nutritivo), tomillo y romero. Crecen bien en macetas pequeñas, mejoran la cocina y tienen propiedades medicinales. Requieren poco espacio y pueden cultivarse incluso en ventanas con luz indirecta.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="img-container">
+                        <img src="Img/lechuga.webp" alt="Lechuga" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h3>Lechugas</h3>
+                        <p class="card-text text-justify">Las lechugas son perfectas para principiantes. Crecen rápidamente, no requieren mucho espacio y pueden cultivarse en macetas o contenedores pequeños. Existen variedades de hoja suelta y de cabeza. Son ricas en fibra, bajas en calorías y se pueden cosechar hojas individuales, lo que permite un consumo prolongado. Prefieren climas frescos y luz parcial.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="img-container">
+                        <img src="Img/pimiento.webp" alt="Pimientos" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h3>Pimientos</h3>
+                        <p class="card-text text-justify">Los pimientos son versátiles y decorativos. Se adaptan bien a macetas grandes y pueden dar frutos de diferentes colores: rojos, verdes, amarillos. Ricos en vitamina C, necesitan mucha luz solar y suelo bien drenado. Las variedades más pequeñas como los pimientos miniatura son perfectos para espacios reducidos y macetas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="img-container">
+                        <img src="Img/albahaca.webp" alt="Albahaca" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h3>Albahaca Genovesa</h3>
+                        <p class="card-text text-justify">La albahaca genovesa es un must en cualquier huerto urbano. Crece rápidamente, tolera bien las macetas y es esencial en la cocina italiana. Requiere sol directo, riegos moderados y puede cultivarse todo el año en interiores con buena luz. Su aroma es intenso y sus hojas son perfectas para ensaladas, pastas y el famoso pesto.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="img-container">
+                        <img src="Img/chile.webp" alt="Chiles" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h3>Chiles</h3>
+                        <p class="card-text text-justify">Los chiles son ideales para huertos urbanos compactos. Existen variedades pequeñas como los chiles jalapeños o habaneros que prosperan en macetas. Son muy decorativos, producen frutos continuamente y aportan sabor picante a múltiples platillos. Necesitan mucho sol, calor y un sustrato rico en nutrientes. Algunos tipos pueden durar varios años con los cuidados adecuados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Técnicas Sección -->
+     <section id="tecnicas" class="container my-5">
+        <h2 class="section-title text-center">Técnicas Avanzadas de Agricultura Urbana</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body">
+                        <i class="fas fa-water card-icon"></i>
+                        <h5 class="card-title">Hidroponía Urbana</h5>
+                        <p class="card-text">Cultiva plantas sin suelo, usando soluciones nutritivas. Ideal para espacios reducidos y control preciso de nutrientes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body">
+                        <i class="fas fa-layer-group card-icon"></i>
+                        <h5 class="card-title">Jardines Verticales</h5>
+                        <p class="card-text">Maximiza espacios pequeños cultivando plantas en estructuras verticales. Perfecto para balcones y patios estrechos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!--Parte de las cards de Bootstrap-->
+                <div class="card card-custom h-100">
+                    <div class="card-body">
+                        <i class="fas fa-recycle card-icon"></i>
+                        <h5 class="card-title">Permacultura Urbana</h5>
+                        <p class="card-text">Diseña sistemas de cultivo sostenibles que imitan los patrones de la naturaleza, maximizando la eficiencia y biodiversidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Parte final del documento -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>© 2024 EcoHuerto</p>
+            <div class="social-links">
+                <a  class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+                <a  class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a  class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
